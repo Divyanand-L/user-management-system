@@ -503,8 +503,6 @@ phone: unique, sparse
 
 ## 📊 ER Diagram
 
-### Entity Relationship Diagram (Chen Notation)
-
 ```
 ┌─────────────────────────────────────────┐
 │              USER                       │
@@ -524,42 +522,6 @@ phone: unique, sparse
 │     createdAt                           │
 │     updatedAt                           │
 └─────────────────────────────────────────┘
-```
-
-### Crow's Foot ERD
-
-```
-USER
-─────────────────────────
-PK _id: ObjectId
-   name: String
-UK email: String
-UK phone: String
-   password: String (hashed)
-   profile_image: String
-   address: String
-   state: String
-   city: String
-   country: String
-   pincode: String
-   role: Enum['user', 'admin']
-   createdAt: Date
-   updatedAt: Date
-```
-
-**Relationships**: Currently single-entity system (no foreign keys)
-
-**Future Extensions**:
-- USER ──< POSTS (One-to-Many)
-- USER ──< SESSIONS (One-to-Many)
-- USER ──< NOTIFICATIONS (One-to-Many)
-
-### ER Diagram Placeholder
-
-```
-[Attach ER Diagram Image Here]
-- Tool: Draw.io, Lucidchart, dbdiagram.io
-- Format: PNG/SVG
 ```
 
 ---
