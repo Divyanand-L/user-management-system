@@ -18,7 +18,6 @@ A full-stack **MERN** application for user authentication, profile management, a
 - [API Documentation](#api-documentation)
 - [Postman Collection](#postman-collection)
 - [Troubleshooting](#troubleshooting)
-- [License](#license)
 
 ---
 
