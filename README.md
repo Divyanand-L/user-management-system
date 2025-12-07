@@ -1163,18 +1163,6 @@ docker logs -f ums-frontend-dev
 
 ---
 
-## 📝 License
-
-This project is licensed under the **ISC License**.
-
----
-
-## 👨‍💻 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
----
-
 ## 📧 Contact
 
 For questions or support, please open an issue in the repository.
